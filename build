@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo "Build control_GPIO.cpp and make executable control_GPIO"
+g++ control_GPIO.cpp -o control_GPIO
+echo "Finished"
